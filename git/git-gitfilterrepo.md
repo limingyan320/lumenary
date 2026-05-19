@@ -14,3 +14,8 @@ if commit.committer_email == b"limingyan@tdh.com":
     commit.committer_email = b"1290229040@qq.com"
 '
 ```
+
+
+```bash
+git log --format='%h | author=%an <%ae> | committer=%cn <%ce>' --all
+```
